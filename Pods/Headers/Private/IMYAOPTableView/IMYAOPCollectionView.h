@@ -1,0 +1,1 @@
+../../../IMYAOPTableView/Classes/IMYAOPCollectionView.h

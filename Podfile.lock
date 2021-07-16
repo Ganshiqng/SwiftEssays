@@ -1,0 +1,59 @@
+PODS:
+  - Alamofire (4.9.1)
+  - IMYAOPTableView (2.1.1)
+  - JXPagingView/Paging (2.1.0)
+  - JXSegmentedView (1.2.7)
+  - Lantern (1.1.2)
+  - LookinServer (1.0.2)
+  - lottie-ios (2.5.3)
+  - SDWebImage (5.9.5):
+    - SDWebImage/Core (= 5.9.5)
+  - SDWebImage/Core (5.9.5)
+  - SDWebImageLottiePlugin (0.2.0):
+    - lottie-ios (~> 2.5)
+    - SDWebImage (~> 5.5)
+  - SnapKit (4.2.0)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - Alamofire
+  - IMYAOPTableView (~> 2.1.1)
+  - JXPagingView/Paging
+  - JXSegmentedView
+  - Lantern
+  - LookinServer
+  - SDWebImage (~> 5.9.0)
+  - SDWebImageLottiePlugin
+  - SnapKit
+  - YYText
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - IMYAOPTableView
+    - JXPagingView
+    - JXSegmentedView
+    - Lantern
+    - LookinServer
+    - lottie-ios
+    - SDWebImage
+    - SDWebImageLottiePlugin
+    - SnapKit
+    - YYText
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  IMYAOPTableView: 9e5779267080be32e963c42d392ac36719569764
+  JXPagingView: ef48a5a2392252c68db7999de38f4761a2707e2a
+  JXSegmentedView: eb1cad21f57c2543c00c3e08b8fd3c7ca54f5acd
+  Lantern: ed012be9a7c989ff5b94c080129a4734b45304b6
+  LookinServer: d6874df8b58096c8d463817b6baaa3abc21d31f7
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  SDWebImage: 0b2ba0d56479bf6a45ecddbfd5558bea93150d25
+  SDWebImageLottiePlugin: 9b47486a293b7191bb96e28bc04edf53739d66d4
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: 630c8b2e7273e07951066ecc44feb275fc17c1b8
+
+COCOAPODS: 1.10.1
