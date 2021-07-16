@@ -48,7 +48,7 @@ target 'demo' do
  
  pod 'JXPagingView/Paging'
  pod 'JXSegmentedView'
- 
+ pod 'EasyTipView'
  pod 'LookinServer', :configurations => ['Debug']
 end
 

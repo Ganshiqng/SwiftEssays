@@ -72,7 +72,15 @@ class oneViewController: UIViewController ,JXSegmentedListContainerViewListDeleg
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         let image : UIImage = info[UIImagePickerController.InfoKey.originalImage ] as! UIImage
         
+        UIImageWriteToSavedPhotosAlbum(image, self, #selector(image(image:didFinishSavingWithError:contextInfo:)), nil)
         self.dismiss(animated: true, completion: nil)
     }
+    
+    @objc private func image(image : UIImage, didFinishSavingWithError error : NSError?, contextInfo : AnyObject) {
+        if (error != nil) {
+            print("保存失败")
+        }
+    }
+   
 
 }

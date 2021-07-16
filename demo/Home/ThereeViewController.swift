@@ -6,9 +6,14 @@
 //
 
 import UIKit
+import JXSegmentedView
 
-class ThereeViewController: UIViewController {
+class ThereeViewController: UIViewController ,JXSegmentedListContainerViewListDelegate{
 
+    func listView() -> UIView {
+        return view
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

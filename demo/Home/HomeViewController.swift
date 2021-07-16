@@ -19,6 +19,7 @@ class HomeViewController: UIViewController, JXSegmentedViewDelegate, JXSegmented
     var segmentedView = JXSegmentedView()
     var segmentedDataSource : JXSegmentedDotDataSource!
     var listContainerView: JXSegmentedListContainerView!
+    var VCArray = NSMutableArray()
     
     
     override func viewDidLoad() {
@@ -27,6 +28,12 @@ class HomeViewController: UIViewController, JXSegmentedViewDelegate, JXSegmented
 //        self.title = "首页"
         tabBarItem.setTitleTextAttributes([NSAttributedString.Key.foregroundColor : UIColor.red], for: .highlighted)
     
+        VCArray = NSMutableArray.init()
+        VCArray.add(oneViewController.init())
+        VCArray.add(towViewController.init())
+        VCArray.add(ThereeViewController.init())
+        
+        
         // Do any additional setup after loading the view.
         self.segmentedView = JXSegmentedView(frame: CGRect(x: 0, y: 60, width: kScreenWidth, height: 44))
         self.segmentedView.delegate = self;
@@ -80,22 +87,15 @@ class HomeViewController: UIViewController, JXSegmentedViewDelegate, JXSegmented
     
     //选中
     func segmentedView(_ segmentedView: JXSegmentedView, didSelectedItemAt index: Int) {
-        print("111111111")
+        
     }
     
     func numberOfLists(in listContainerView: JXSegmentedListContainerView) -> Int {
-        return 4
+        return VCArray.count
     }
     
     func listContainerView(_ listContainerView: JXSegmentedListContainerView, initListAt index: Int) -> JXSegmentedListContainerViewListDelegate {
-        if index==0 {
-            let vc = oneViewController.init()
-            vc.index = index
-            return vc
-            
-        }
-        let vc2 = towViewController.init()
-        return vc2
+        return VCArray.object(at: index) as! JXSegmentedListContainerViewListDelegate
     }
     
     

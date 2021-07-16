@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.9.1)
+  - EasyTipView (2.0.4)
   - IMYAOPTableView (2.1.1)
   - JXPagingView/Paging (2.1.0)
   - JXSegmentedView (1.2.7)
@@ -17,6 +18,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - EasyTipView
   - IMYAOPTableView (~> 2.1.1)
   - JXPagingView/Paging
   - JXSegmentedView
@@ -30,6 +32,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
+    - EasyTipView
     - IMYAOPTableView
     - JXPagingView
     - JXSegmentedView
@@ -43,6 +46,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  EasyTipView: 4f8beae0a82db2ca4a9b5fd658785fc5f61d296b
   IMYAOPTableView: 9e5779267080be32e963c42d392ac36719569764
   JXPagingView: ef48a5a2392252c68db7999de38f4761a2707e2a
   JXSegmentedView: eb1cad21f57c2543c00c3e08b8fd3c7ca54f5acd
@@ -54,6 +58,6 @@ SPEC CHECKSUMS:
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 630c8b2e7273e07951066ecc44feb275fc17c1b8
+PODFILE CHECKSUM: 884128e4a23b58c3f542039cb8b815dde150063d
 
 COCOAPODS: 1.10.1
