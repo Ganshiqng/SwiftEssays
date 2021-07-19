@@ -1,4 +1,4 @@
-module Pods_daoyuExtension {
+framework module Pods_daoyuExtension {
   umbrella header "Pods-daoyuExtension-umbrella.h"
 
   export *

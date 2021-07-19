@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.9.1)
+  - DeviceKit (4.4.0)
   - EasyTipView (2.0.4)
   - IMYAOPTableView (2.1.1)
   - JXPagingView/Paging (2.1.0)
@@ -14,10 +15,12 @@ PODS:
     - lottie-ios (~> 2.5)
     - SDWebImage (~> 5.5)
   - SnapKit (4.2.0)
+  - SwiftyUserDefaults (5.3.0)
   - YYText (1.0.7)
 
 DEPENDENCIES:
   - Alamofire
+  - DeviceKit
   - EasyTipView
   - IMYAOPTableView (~> 2.1.1)
   - JXPagingView/Paging
@@ -27,11 +30,13 @@ DEPENDENCIES:
   - SDWebImage (~> 5.9.0)
   - SDWebImageLottiePlugin
   - SnapKit
+  - SwiftyUserDefaults
   - YYText
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
+    - DeviceKit
     - EasyTipView
     - IMYAOPTableView
     - JXPagingView
@@ -42,10 +47,12 @@ SPEC REPOS:
     - SDWebImage
     - SDWebImageLottiePlugin
     - SnapKit
+    - SwiftyUserDefaults
     - YYText
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  DeviceKit: 2c5d7485a2fa10b65c0091b2952d30843a6ba06d
   EasyTipView: 4f8beae0a82db2ca4a9b5fd658785fc5f61d296b
   IMYAOPTableView: 9e5779267080be32e963c42d392ac36719569764
   JXPagingView: ef48a5a2392252c68db7999de38f4761a2707e2a
@@ -56,8 +63,9 @@ SPEC CHECKSUMS:
   SDWebImage: 0b2ba0d56479bf6a45ecddbfd5558bea93150d25
   SDWebImageLottiePlugin: 9b47486a293b7191bb96e28bc04edf53739d66d4
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftyUserDefaults: 63f80248cf5bfb3458825d9a78f2eb7e1293a040
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 884128e4a23b58c3f542039cb8b815dde150063d
+PODFILE CHECKSUM: cf8c0eddf45efeb4df10e68cd85a151f16d867f2
 
 COCOAPODS: 1.10.1

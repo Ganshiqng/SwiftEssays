@@ -7,7 +7,7 @@
 
 import UIKit
 import JXSegmentedView
-
+import SwiftyUserDefaults
 class towViewController: UIViewController ,JXSegmentedListContainerViewListDelegate,UIImagePickerControllerDelegate & UINavigationControllerDelegate{
     func listView() -> UIView {
         return view
@@ -22,7 +22,7 @@ class towViewController: UIViewController ,JXSegmentedListContainerViewListDeleg
         label = UILabel()
         label.text = "当前封面设置"
         label.textColor = .lightGray
-        label.font = UIFont.systemFont(ofSize: 14)
+        label.font = Font_Reg_10
         view.addSubview(label)
         label.snp.makeConstraints { (make) in
             make.left.equalToSuperview().offset(20)
@@ -61,6 +61,9 @@ class towViewController: UIViewController ,JXSegmentedListContainerViewListDeleg
     }
     
     func SQ_ViewDidLod() {
+        
+        
+        
         let fullPath = NSHomeDirectory().appending("/Documents/").appending("home")
         if let savedImage = UIImage(contentsOfFile: fullPath) {
             imageViews.image = savedImage

@@ -7,6 +7,7 @@
 
 import UIKit
 import JXSegmentedView
+import SwiftyUserDefaults
 
 public let kScreenWidth:CGFloat = UIScreen.main.bounds.width
 public let kScreenHeight:CGFloat = UIScreen.main.bounds.height

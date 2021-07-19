@@ -4,6 +4,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 #source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 
  platform :ios, '9.0'
+ use_frameworks!
 def common_pods
   pod 'SnapKit'
   pod 'Alamofire'
@@ -49,6 +50,8 @@ target 'demo' do
  pod 'JXPagingView/Paging'
  pod 'JXSegmentedView'
  pod 'EasyTipView'
+ pod 'SwiftyUserDefaults'
+ pod 'DeviceKit', :inhibit_warnings => true
  pod 'LookinServer', :configurations => ['Debug']
 end
 

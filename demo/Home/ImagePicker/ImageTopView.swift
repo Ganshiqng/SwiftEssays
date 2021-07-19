@@ -26,6 +26,8 @@ class ImageTopView: UIView {
             make.edges.equalToSuperview()
         }
         
+//        let image = UIImage(contentsOfFile: <#T##String#>)
+        
         let fullPath = NSHomeDirectory().appending("/Documents/").appending("home")
        
      

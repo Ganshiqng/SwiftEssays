@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A5BFFA55D420D80C7CB0CB0435944001"
-               BuildableName = "libIMYAOPTableView.a"
+               BuildableName = "IMYAOPTableView.framework"
                BlueprintName = "IMYAOPTableView"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

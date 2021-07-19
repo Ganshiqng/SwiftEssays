@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "048D21E3C8151CD23D428D38093E1538"
-               BuildableName = "libEasyTipView.a"
+               BuildableName = "EasyTipView.framework"
                BlueprintName = "EasyTipView"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

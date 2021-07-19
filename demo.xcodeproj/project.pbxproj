@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		072774C570C3524ABBE27306 /* libPods-demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40108BE2CA62C49988D49249 /* libPods-demo.a */; };
 		268EF14E2696DE6D00D3B222 /* SQTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268EF14D2696DE6D00D3B222 /* SQTool.swift */; };
 		268EF1522696E71E00D3B222 /* oneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268EF1512696E71E00D3B222 /* oneViewController.swift */; };
 		268EF169269D28DE00D3B222 /* towViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268EF168269D28DE00D3B222 /* towViewController.swift */; };
@@ -30,7 +29,12 @@
 		26DACAC6267C622E00688540 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DACAC5267C622E00688540 /* AddViewController.swift */; };
 		26DACAC8267C630100688540 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DACAC7267C630100688540 /* MeViewController.swift */; };
 		26DB1AD826A12AC9004D092B /* ThereeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DB1AD726A12AC9004D092B /* ThereeViewController.swift */; };
-		A82E9A7FA26D59FDBCDACD1C /* libPods-daoyuExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D04237DF08FE60D982A45A /* libPods-daoyuExtension.a */; };
+		26DB1ADA26A1753D004D092B /* SQ+Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DB1AD926A1753D004D092B /* SQ+Define.swift */; };
+		26DB1ADC26A5124F004D092B /* SQColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DB1ADB26A5124F004D092B /* SQColor.swift */; };
+		26DB1ADF26A51769004D092B /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DB1ADE26A51769004D092B /* UIColor+Extension.swift */; };
+		26DB1AE126A52D4B004D092B /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DB1AE026A52D4B004D092B /* UILabel+Extension.swift */; };
+		51563D17611EADF62C898AC0 /* Pods_daoyuExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA9AC984F12B31ECC4E04D43 /* Pods_daoyuExtension.framework */; };
+		CACA7AA4E19962AD5EB3AD76 /* Pods_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE1C4EABB4E846954163E09 /* Pods_demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,12 +104,16 @@
 		26DACAC5267C622E00688540 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		26DACAC7267C630100688540 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		26DB1AD726A12AC9004D092B /* ThereeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThereeViewController.swift; sourceTree = "<group>"; };
-		40108BE2CA62C49988D49249 /* libPods-demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DB1AD926A1753D004D092B /* SQ+Define.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SQ+Define.swift"; sourceTree = "<group>"; };
+		26DB1ADB26A5124F004D092B /* SQColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQColor.swift; sourceTree = "<group>"; };
+		26DB1ADE26A51769004D092B /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		26DB1AE026A52D4B004D092B /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		48274CB701A9033E1E913283 /* Pods-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo.debug.xcconfig"; path = "Target Support Files/Pods-demo/Pods-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		5EE1C4EABB4E846954163E09 /* Pods_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77C69818F692E9F5F348F204 /* Pods-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo.release.xcconfig"; path = "Target Support Files/Pods-demo/Pods-demo.release.xcconfig"; sourceTree = "<group>"; };
 		9CDC1ACB84A3EC64E2260CF5 /* Pods-daoyuExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-daoyuExtension.debug.xcconfig"; path = "Target Support Files/Pods-daoyuExtension/Pods-daoyuExtension.debug.xcconfig"; sourceTree = "<group>"; };
-		A4D04237DF08FE60D982A45A /* libPods-daoyuExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-daoyuExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A946D9D4AC755300B1B7891E /* Pods-daoyuExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-daoyuExtension.release.xcconfig"; path = "Target Support Files/Pods-daoyuExtension/Pods-daoyuExtension.release.xcconfig"; sourceTree = "<group>"; };
+		CA9AC984F12B31ECC4E04D43 /* Pods_daoyuExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_daoyuExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +123,7 @@
 			files = (
 				26C0F35426806CC3005094A9 /* SwiftUI.framework in Frameworks */,
 				26C0F35226806CC3005094A9 /* WidgetKit.framework in Frameworks */,
-				A82E9A7FA26D59FDBCDACD1C /* libPods-daoyuExtension.a in Frameworks */,
+				51563D17611EADF62C898AC0 /* Pods_daoyuExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,7 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				072774C570C3524ABBE27306 /* libPods-demo.a in Frameworks */,
+				CACA7AA4E19962AD5EB3AD76 /* Pods_demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +156,8 @@
 			isa = PBXGroup;
 			children = (
 				268EF14D2696DE6D00D3B222 /* SQTool.swift */,
+				26DB1AD926A1753D004D092B /* SQ+Define.swift */,
+				26DB1ADB26A5124F004D092B /* SQColor.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -199,6 +209,7 @@
 		26DACA92267C5B2000688540 /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				26DB1ADD26A51745004D092B /* Extension */,
 				268EF1492695A49300D3B222 /* Tool */,
 				26DACA93267C5B2000688540 /* AppDelegate.swift */,
 				26DACA97267C5B2000688540 /* ViewController.swift */,
@@ -258,6 +269,15 @@
 			path = Me;
 			sourceTree = "<group>";
 		};
+		26DB1ADD26A51745004D092B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				26DB1ADE26A51769004D092B /* UIColor+Extension.swift */,
+				26DB1AE026A52D4B004D092B /* UILabel+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		607C237BD934B07AB58B120C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,8 +294,8 @@
 			children = (
 				26C0F35126806CC3005094A9 /* WidgetKit.framework */,
 				26C0F35326806CC3005094A9 /* SwiftUI.framework */,
-				A4D04237DF08FE60D982A45A /* libPods-daoyuExtension.a */,
-				40108BE2CA62C49988D49249 /* libPods-demo.a */,
+				CA9AC984F12B31ECC4E04D43 /* Pods_daoyuExtension.framework */,
+				5EE1C4EABB4E846954163E09 /* Pods_demo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -310,6 +330,7 @@
 				26DACA8D267C5B1F00688540 /* Frameworks */,
 				26DACA8E267C5B1F00688540 /* Resources */,
 				26C0F36126806CCB005094A9 /* Embed App Extensions */,
+				5D64BC5D649DB8BF7DAC138D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -440,6 +461,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5D64BC5D649DB8BF7DAC138D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demo/Pods-demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demo/Pods-demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-demo/Pods-demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		97507931B39CEA741EB48482 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -500,12 +538,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26DB1ADA26A1753D004D092B /* SQ+Define.swift in Sources */,
 				268EF16C269D3F4600D3B222 /* ImageTopView.swift in Sources */,
+				26DB1AE126A52D4B004D092B /* UILabel+Extension.swift in Sources */,
 				268EF169269D28DE00D3B222 /* towViewController.swift in Sources */,
 				26DACAC8267C630100688540 /* MeViewController.swift in Sources */,
 				26C0F35D26806CCB005094A9 /* daoyu.intentdefinition in Sources */,
 				26DACAC6267C622E00688540 /* AddViewController.swift in Sources */,
 				268EF1522696E71E00D3B222 /* oneViewController.swift in Sources */,
+				26DB1ADF26A51769004D092B /* UIColor+Extension.swift in Sources */,
+				26DB1ADC26A5124F004D092B /* SQColor.swift in Sources */,
 				26DACA98267C5B2000688540 /* ViewController.swift in Sources */,
 				26DACA94267C5B2000688540 /* AppDelegate.swift in Sources */,
 				26DB1AD826A12AC9004D092B /* ThereeViewController.swift in Sources */,
