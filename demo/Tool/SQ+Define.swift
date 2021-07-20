@@ -63,26 +63,4 @@ let MTTintColorDarkRed = UIColor(red: 0.84, green: 0.29, blue: 0.23, alpha: 1)
 let NavigationBarColor = UIColor(displayP3Red: 27/255.0,green:108/255.0,blue:230/255.0,alpha:1.0)
 
 
-///OSS
-let OSS_ACCESSKEY_ID: String = "LTAI4G9GGDRuYX2WJJAbVpeW"
-let OSS_SECRETKEY_ID: String = "g4T1tSGCu1g9H2KyUWWfZiNPJwk5h4"
-let OSS_BUCKET_PUBLIC: String = "jmbon"
-let OSS_BUCKET_PRIVATE: String = "jmbon"
-let OSS_ENDPOINT: String = "http://oss-cn-beijing.aliyuncs.com"
-let OSS_MULTIPART_UPLOADKEY: String = "multipart"
-let OSS_RESUMABLE_UPLOADKEY: String = "resumable"
-let OSS_CALLBACK_URL: String = "http://oss-demo.aliyuncs.com:23450"
-let OSS_CNAME_URL: String = "http://www.cnametest.com/"
-let OSS_STSTOKEN_URL: String = "https://app.jmbon.com/api/v1/common/sts"
-let OSS_IMAGE_KEY: String = "testImage.png"
-let OSS_CRC64_ENABLE: Bool = true
-let OSS_CONTENT_TYPE: String = "Content-Type"
-let OSS_CONTENT_LENGTH: String = "Content-Length"
-let OSS_TEST_CONTENT_TYPE: String = "application/special"
-let OSS_APPEND_OBJECT_KEY: String = "appendObject"
-let OSS_PRIVATE_RESOURCE_ADDRESS = "https://image.jmbon.com/"
-
-let MTKeyRewardValueChangedNotification = "rewardValueChangedNotification"
-let MTKeyPregnancyStatusValueChanged = "MTKeyPregnancyStatusValueChanged"
-let MTKeyUserFollowUnReadStatesChanged = "MTKeyUserFollowUnReadStatesChanged"
 
