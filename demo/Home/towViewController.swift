@@ -42,15 +42,15 @@ class towViewController: UIViewController ,JXSegmentedListContainerViewListDeleg
       
         
         button = UIButton()
-        button.backgroundColor = UIColor.red
-        button.layer.cornerRadius = 22
-        button.setTitle("设置封面", for: .normal)
+        button.backgroundColor = UIColor.SQ_randomColor
+        button.layer.cornerRadius = 20
+        button.setTitle("设置", for: .normal)
         button.addTarget(self, action:#selector(setupimage), for:.touchUpInside)
         view.addSubview(button)
         button.snp.makeConstraints { (make) in
             make.width.equalTo(100)
             make.bottom.equalToSuperview().offset(-70)
-            make.height.equalTo(44)
+            make.height.equalTo(40)
             make.centerX.equalToSuperview()
      }
     }

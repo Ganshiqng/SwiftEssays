@@ -11,9 +11,9 @@ class MeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        var mysting = "我的二人世界"
+//        var mysting = "我的二人世界"
         // Do any additional setup after loading the view.
-        print(mysting)
+//        print(mysting)
     }
     
 

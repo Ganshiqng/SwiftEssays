@@ -10,7 +10,7 @@ import UIKit
 extension UIColor {
     
     //随机颜色
-    public class var randomColor:UIColor{
+    public class var SQ_randomColor:UIColor{
         get
         {
             let red = CGFloat(arc4random()%256)/255.0
@@ -29,7 +29,7 @@ extension UIColor {
             alpha: alpha
         )
     }
-    public final class func extRGBA(red: CGFloat ,
+    public final class func SQ_extRGBA(red: CGFloat ,
                                   green: CGFloat,
                                   blue: CGFloat,
                                   alpha: CGFloat)-> UIColor{
@@ -39,7 +39,7 @@ extension UIColor {
                                   alpha: alpha)
     }
     
-    public final class func hex(_ hex :String,
+    public final class func SQ_hex(_ hex :String,
                                 alpha:CGFloat = 1) -> UIColor {
         var hexColor = hex
         hexColor = hexColor.replacingOccurrences(of: " ", with: " ")

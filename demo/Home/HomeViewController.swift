@@ -26,8 +26,7 @@ class HomeViewController: UIViewController, JXSegmentedViewDelegate, JXSegmented
     override func viewDidLoad() {
         super.viewDidLoad()
        
-//        self.title = "首页"
-        tabBarItem.setTitleTextAttributes([NSAttributedString.Key.foregroundColor : UIColor.red], for: .highlighted)
+
     
         VCArray = NSMutableArray.init()
         VCArray.add(oneViewController.init())

@@ -1,17 +1,22 @@
 //
-//  AddViewController.swift
+//  BaseViewController.swift
 //  demo
 //
-//  Created by 甘世清 on 2021/6/18.
+//  Created by 甘世清 on 2021/7/21.
 //
 
 import UIKit
+protocol DetailsViewDelegate {
+    func <#name#>(<#parameters#>) -> <#return type#> {
+    <#function body#>
+    }
+}
 
-class AddViewController: UIViewController {
+class BaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-//        tabBarItem.setTitleTextAttributes([NSAttributedString.Key.foregroundColor : UIColor.red], for: .highlighted)
+
         // Do any additional setup after loading the view.
     }
     

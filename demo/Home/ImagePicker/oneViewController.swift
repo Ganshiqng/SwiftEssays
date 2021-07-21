@@ -31,18 +31,19 @@ class oneViewController: UIViewController ,JXSegmentedListContainerViewListDeleg
             view.backgroundColor = UIColor.red
         }
         
-
-        // Do any additional setup after loading the view.
         button = UIButton()
-        button.backgroundColor = UIColor.red
-        button.layer.cornerRadius = 22;
-        button.setTitle("拍照", for: .normal)
-        button.addTarget(self, action:#selector(goCamera), for:.touchUpInside)
+        button.backgroundColor = UIColor.SQ_randomColor
+        button.layer.cornerRadius = 20;
+        button.setTitle("记录", for: .normal)
+        button.addAction(1) { UIButton in
+            self.goCamera()
+        }
+
         view.addSubview(button)
         button.snp.makeConstraints { (make) in
             make.width.equalTo(100)
             make.bottom.equalToSuperview().offset(-70)
-            make.height.equalTo(44)
+            make.height.equalTo(40)
             make.centerX.equalToSuperview()
         }
     

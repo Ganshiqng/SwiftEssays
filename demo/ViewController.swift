@@ -28,10 +28,13 @@ class ViewController: UITabBarController {
           //这里设置背景色 是每一个vc设置的都一样
           controller.view.backgroundColor = UIColor.white
           controller.tabBarItem.image = UIImage.init(named: image)
+        controller.tabBarItem.imageInsets = UIEdgeInsets(top: 6, left: 6, bottom: 6, right: 6)
           controller.tabBarItem.selectedImage = UIImage.init(named: seletedImage)?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
         
           let naviController = UINavigationController.init(rootViewController: controller)
           addChild(naviController)
+        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor : UIColor.SQ_extRGBA(red: 210, green: 20, blue: 220, alpha: 1)], for: .selected)
+        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor : UIColor.yellow], for: .normal)
       }
 }
 
