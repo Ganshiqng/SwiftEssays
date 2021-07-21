@@ -8,7 +8,7 @@
 import UIKit
 import JXSegmentedView
  
-class ThereeViewController: RootViewController ,JXSegmentedListContainerViewListDelegate,UITableViewDelegate,UITableViewDataSource{
+class ThereeViewController: BaseViewController ,JXSegmentedListContainerViewListDelegate,UITableViewDelegate,UITableViewDataSource{
     
     var tableView = UITableView()
     

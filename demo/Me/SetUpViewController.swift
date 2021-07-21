@@ -1,19 +1,18 @@
 //
-//  MeViewController.swift
+//  SetUpViewController.swift
 //  demo
 //
-//  Created by 甘世清 on 2021/6/18.
+//  Created by 甘世清 on 2021/7/21.
 //
 
 import UIKit
 
-class MeViewController: BaseViewController {
+class SetUpViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-//        var mysting = "我的二人世界"
+
         // Do any additional setup after loading the view.
-//        print(mysting)
     }
     
 

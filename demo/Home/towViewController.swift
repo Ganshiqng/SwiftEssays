@@ -8,7 +8,7 @@
 import UIKit
 import JXSegmentedView
 import SwiftyUserDefaults
-class towViewController: UIViewController ,JXSegmentedListContainerViewListDelegate,UIImagePickerControllerDelegate & UINavigationControllerDelegate{
+class towViewController: BaseViewController ,JXSegmentedListContainerViewListDelegate,UIImagePickerControllerDelegate & UINavigationControllerDelegate{
     func listView() -> UIView {
         return view
     }

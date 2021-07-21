@@ -4,8 +4,12 @@
 //
 //  Created by 甘世清 on 2021/7/8.
 //
-
+import UIKit
 import Foundation
+
+public let kScreenWidth:CGFloat = UIScreen.main.bounds.width
+public let kScreenHeight:CGFloat = UIScreen.main.bounds.height
+
 
 let Font_Reg_10 = HLFont(ofSize: 10, weight: .regular)
 let Font_Reg_12 = HLFont(ofSize: 12, weight: .regular)

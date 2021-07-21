@@ -8,7 +8,7 @@
 import UIKit
 import JXSegmentedView
 
-class oneViewController: UIViewController ,JXSegmentedListContainerViewListDelegate, UIImagePickerControllerDelegate & UINavigationControllerDelegate {
+class oneViewController: BaseViewController ,JXSegmentedListContainerViewListDelegate, UIImagePickerControllerDelegate & UINavigationControllerDelegate {
     var index:NSInteger = 0
     
     func listView() -> UIView {

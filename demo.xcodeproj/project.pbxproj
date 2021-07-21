@@ -11,6 +11,7 @@
 		268EF1522696E71E00D3B222 /* oneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268EF1512696E71E00D3B222 /* oneViewController.swift */; };
 		268EF169269D28DE00D3B222 /* towViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268EF168269D28DE00D3B222 /* towViewController.swift */; };
 		268EF16C269D3F4600D3B222 /* ImageTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268EF16B269D3F4600D3B222 /* ImageTopView.swift */; };
+		26B466A126A7F5C500FA46B9 /* SetUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B466A026A7F5C500FA46B9 /* SetUpViewController.swift */; };
 		26C0F35226806CC3005094A9 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C0F35126806CC3005094A9 /* WidgetKit.framework */; };
 		26C0F35426806CC3005094A9 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C0F35326806CC3005094A9 /* SwiftUI.framework */; };
 		26C0F35726806CC3005094A9 /* daoyu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C0F35626806CC3005094A9 /* daoyu.swift */; };
@@ -83,6 +84,7 @@
 		268EF1512696E71E00D3B222 /* oneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneViewController.swift; sourceTree = "<group>"; };
 		268EF168269D28DE00D3B222 /* towViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = towViewController.swift; sourceTree = "<group>"; };
 		268EF16B269D3F4600D3B222 /* ImageTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTopView.swift; sourceTree = "<group>"; };
+		26B466A026A7F5C500FA46B9 /* SetUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpViewController.swift; sourceTree = "<group>"; };
 		26C0F35026806CC3005094A9 /* daoyuExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = daoyuExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		26C0F35126806CC3005094A9 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		26C0F35326806CC3005094A9 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -272,6 +274,7 @@
 			isa = PBXGroup;
 			children = (
 				26DACAC7267C630100688540 /* MeViewController.swift */,
+				26B466A026A7F5C500FA46B9 /* SetUpViewController.swift */,
 			);
 			path = Me;
 			sourceTree = "<group>";
@@ -555,6 +558,7 @@
 				26DB1AEB26A7D0C5004D092B /* BaseViewController.swift in Sources */,
 				26DACAC8267C630100688540 /* MeViewController.swift in Sources */,
 				26C0F35D26806CCB005094A9 /* daoyu.intentdefinition in Sources */,
+				26B466A126A7F5C500FA46B9 /* SetUpViewController.swift in Sources */,
 				26DACAC6267C622E00688540 /* AddViewController.swift in Sources */,
 				268EF1522696E71E00D3B222 /* oneViewController.swift in Sources */,
 				26DB1ADF26A51769004D092B /* UIColor+Extension.swift in Sources */,
