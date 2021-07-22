@@ -8,6 +8,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 def common_pods
   pod 'SnapKit'
   pod 'Alamofire'
+  pod 'Kingfisher'
   
   end
 

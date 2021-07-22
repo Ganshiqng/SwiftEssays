@@ -61,7 +61,7 @@ class HomeViewController: BaseViewController, JXSegmentedViewDelegate, JXSegment
         indicator.indicatorCornerRadius = 2
         indicator.indicatorColor = UIColor(red: 14 / 255, green: 169 / 255, blue: 176 / 255, alpha: 1)
         self.segmentedView.indicators = [indicator]
-        self.segmentedDataSource.titles = ["1","2","3","4"]
+        self.segmentedDataSource.titles = ["摄影","相册","列表","4"]
         segmentedView.collectionView.isDirectionalLockEnabled = true
         segmentedView.dataSource = segmentedDataSource
         segmentedView.defaultSelectedIndex = 1

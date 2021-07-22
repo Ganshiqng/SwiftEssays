@@ -12,6 +12,9 @@
 		268EF169269D28DE00D3B222 /* towViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268EF168269D28DE00D3B222 /* towViewController.swift */; };
 		268EF16C269D3F4600D3B222 /* ImageTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268EF16B269D3F4600D3B222 /* ImageTopView.swift */; };
 		26B466A126A7F5C500FA46B9 /* SetUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B466A026A7F5C500FA46B9 /* SetUpViewController.swift */; };
+		26B466A426A9036300FA46B9 /* SQColumnCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B466A326A9036300FA46B9 /* SQColumnCell.swift */; };
+		26B466A626A906CC00FA46B9 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B466A526A906CC00FA46B9 /* UIView+Extension.swift */; };
+		26B466A826A9217F00FA46B9 /* UIAlertController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B466A726A9217F00FA46B9 /* UIAlertController+Extension.swift */; };
 		26C0F35226806CC3005094A9 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C0F35126806CC3005094A9 /* WidgetKit.framework */; };
 		26C0F35426806CC3005094A9 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C0F35326806CC3005094A9 /* SwiftUI.framework */; };
 		26C0F35726806CC3005094A9 /* daoyu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C0F35626806CC3005094A9 /* daoyu.swift */; };
@@ -85,6 +88,9 @@
 		268EF168269D28DE00D3B222 /* towViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = towViewController.swift; sourceTree = "<group>"; };
 		268EF16B269D3F4600D3B222 /* ImageTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTopView.swift; sourceTree = "<group>"; };
 		26B466A026A7F5C500FA46B9 /* SetUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpViewController.swift; sourceTree = "<group>"; };
+		26B466A326A9036300FA46B9 /* SQColumnCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQColumnCell.swift; sourceTree = "<group>"; };
+		26B466A526A906CC00FA46B9 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		26B466A726A9217F00FA46B9 /* UIAlertController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extension.swift"; sourceTree = "<group>"; };
 		26C0F35026806CC3005094A9 /* daoyuExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = daoyuExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		26C0F35126806CC3005094A9 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		26C0F35326806CC3005094A9 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -179,6 +185,15 @@
 			path = ImagePicker;
 			sourceTree = "<group>";
 		};
+		26B466A226A9031700FA46B9 /* 列表 */ = {
+			isa = PBXGroup;
+			children = (
+				26DB1AD726A12AC9004D092B /* ThereeViewController.swift */,
+				26B466A326A9036300FA46B9 /* SQColumnCell.swift */,
+			);
+			path = "列表";
+			sourceTree = "<group>";
+		};
 		26C0F35526806CC3005094A9 /* daoyu */ = {
 			isa = PBXGroup;
 			children = (
@@ -257,7 +272,7 @@
 				26DACAC3267C622000688540 /* HomeViewController.swift */,
 				268EF16A269D3F2000D3B222 /* ImagePicker */,
 				268EF168269D28DE00D3B222 /* towViewController.swift */,
-				26DB1AD726A12AC9004D092B /* ThereeViewController.swift */,
+				26B466A226A9031700FA46B9 /* 列表 */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -286,6 +301,8 @@
 				26DB1AE026A52D4B004D092B /* UILabel+Extension.swift */,
 				26DB1AE226A57653004D092B /* UITableView+Extension.swift */,
 				26DB1AE426A67CF7004D092B /* UIButton+Extension.swift */,
+				26B466A526A906CC00FA46B9 /* UIView+Extension.swift */,
+				26B466A726A9217F00FA46B9 /* UIAlertController+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -552,6 +569,7 @@
 			files = (
 				26DB1ADA26A1753D004D092B /* SQ+Define.swift in Sources */,
 				268EF16C269D3F4600D3B222 /* ImageTopView.swift in Sources */,
+				26B466A826A9217F00FA46B9 /* UIAlertController+Extension.swift in Sources */,
 				26DB1AE126A52D4B004D092B /* UILabel+Extension.swift in Sources */,
 				26DB1AE526A67CF8004D092B /* UIButton+Extension.swift in Sources */,
 				268EF169269D28DE00D3B222 /* towViewController.swift in Sources */,
@@ -560,10 +578,12 @@
 				26C0F35D26806CCB005094A9 /* daoyu.intentdefinition in Sources */,
 				26B466A126A7F5C500FA46B9 /* SetUpViewController.swift in Sources */,
 				26DACAC6267C622E00688540 /* AddViewController.swift in Sources */,
+				26B466A426A9036300FA46B9 /* SQColumnCell.swift in Sources */,
 				268EF1522696E71E00D3B222 /* oneViewController.swift in Sources */,
 				26DB1ADF26A51769004D092B /* UIColor+Extension.swift in Sources */,
 				26DB1ADC26A5124F004D092B /* SQColor.swift in Sources */,
 				26DACA98267C5B2000688540 /* ViewController.swift in Sources */,
+				26B466A626A906CC00FA46B9 /* UIView+Extension.swift in Sources */,
 				26DACA94267C5B2000688540 /* AppDelegate.swift in Sources */,
 				26DB1AD826A12AC9004D092B /* ThereeViewController.swift in Sources */,
 				26DACAC4267C622100688540 /* HomeViewController.swift in Sources */,

@@ -39,6 +39,7 @@ class towViewController: BaseViewController ,JXSegmentedListContainerViewListDel
             make.width.height.equalTo(100)
         }
         
+        imageViews.kf.setImage(with: URL(string: "https://image.baidu.com/search/detail?ct=503316480&z=undefined&tn=baiduimagedetail&ipn=d&word=美女&step_word=&ie=utf-8&in=&cl=2&lm=-1&st=undefined&hd=undefined&latest=undefined&copyright=undefined&cs=1545655807,459773094&os=3475484516,1732021831&simid=3481281205,272653339&pn=188&rn=1&di=79310&ln=2000&fr=&fmq=1626862544348_R&fm=&ic=undefined&s=undefined&se=&sme=&tab=0&width=undefined&height=undefined&face=undefined&is=0,0&istype=0&ist=&jit=&bdtype=0&spn=0&pi=0&gsm=96&objurl=https%3A%2F%2Fgimg2.baidu.com%2Fimage_search%2Fsrc%3Dhttp%253A%252F%252Fpic1.win4000.com%252Fwallpaper%252F2020-07-20%252F5f1554f6d025b.jpg%26refer%3Dhttp%253A%252F%252Fpic1.win4000.com%26app%3D2002%26size%3Df9999%2C10000%26q%3Da80%26n%3D0%26g%3D0n%26fmt%3Djpeg%3Fsec%3D1629454553%26t%3D55f04501ae9cc37f085454b1eb44dbdb&rpstart=0&rpnum=0&adpicid=0&nojc=undefined"))
       
         
         button = UIButton()
@@ -64,15 +65,16 @@ class towViewController: BaseViewController ,JXSegmentedListContainerViewListDel
         
         
         
-        let fullPath = NSHomeDirectory().appending("/Documents/").appending("home")
-        if let savedImage = UIImage(contentsOfFile: fullPath) {
-            imageViews.image = savedImage
-            imageViews.isHidden = false
-            label.text = "当前封面设置"
-         } else {
-            label.text = "文件不存在"
-            imageViews.isHidden = true
-         }
+//        let fullPath = NSHomeDirectory().appending("/Documents/").appending("home")
+//        if let savedImage = UIImage(contentsOfFile: fullPath) {
+//            imageViews.image = savedImage
+////            imageViews.isHidden = false
+//            label.text = "当前封面设置"
+//         } else {
+////            label.text = "文件不存在"
+////            imageViews.isHidden = true
+//             imageViews.kf.setImage(with: URL(string: "https://image.baidu.com/search/detail?ct=503316480&z=undefined&tn=baiduimagedetail&ipn=d&word=美女&step_word=&ie=utf-8&in=&cl=2&lm=-1&st=undefined&hd=undefined&latest=undefined&copyright=undefined&cs=1545655807,459773094&os=3475484516,1732021831&simid=3481281205,272653339&pn=188&rn=1&di=79310&ln=2000&fr=&fmq=1626862544348_R&fm=&ic=undefined&s=undefined&se=&sme=&tab=0&width=undefined&height=undefined&face=undefined&is=0,0&istype=0&ist=&jit=&bdtype=0&spn=0&pi=0&gsm=96&objurl=https%3A%2F%2Fgimg2.baidu.com%2Fimage_search%2Fsrc%3Dhttp%253A%252F%252Fpic1.win4000.com%252Fwallpaper%252F2020-07-20%252F5f1554f6d025b.jpg%26refer%3Dhttp%253A%252F%252Fpic1.win4000.com%26app%3D2002%26size%3Df9999%2C10000%26q%3Da80%26n%3D0%26g%3D0n%26fmt%3Djpeg%3Fsec%3D1629454553%26t%3D55f04501ae9cc37f085454b1eb44dbdb&rpstart=0&rpnum=0&adpicid=0&nojc=undefined"))
+//         }
     }
 
    
