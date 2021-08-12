@@ -20,9 +20,10 @@ extension UILabel {
         }
     }
     
-    //label 内容行数 size是指label的宽和高 linespace是行间距
-    
-    func textLineNums(size:CGSize) ->  CGFloat {
+    /// label 内容行数 size是指label的宽和高 linespace是行间距
+    /// - Parameter size: size description
+    /// - Returns: description
+    func SQ_textLineNums(size:CGSize) ->  CGFloat {
         let paragraphStyle = NSMutableParagraphStyle()
         paragraphStyle.lineBreakMode = self.lineBreakMode
         paragraphStyle.alignment = self.textAlignment
@@ -36,7 +37,7 @@ extension UILabel {
     }
     
     
-    static func heightForView(text:String, font:UIFont,width:CGFloat,numberOfLines:Int,lineSpace:CGFloat = 10)-> CGFloat{
+    static func SQ_heightForView(text:String, font:UIFont,width:CGFloat,numberOfLines:Int,lineSpace:CGFloat = 10)-> CGFloat{
         let label:UILabel = UILabel(frame: CGRect(x: 0, y: 0, width: width, height: CGFloat.greatestFiniteMagnitude))
         label.numberOfLines = numberOfLines
         label.lineBreakMode = NSLineBreakMode.byWordWrapping
@@ -53,7 +54,7 @@ extension UILabel {
         return label.frame.height
     }
     
-    static func widthForView(text:String, font:UIFont, height:CGFloat) ->CGFloat{
+    static func SQ_widthForView(text:String, font:UIFont, height:CGFloat) ->CGFloat{
         let label:UILabel = UILabel(frame: CGRect(x: 0, y: 0, width: CGFloat.greatestFiniteMagnitude, height: height))
         label.numberOfLines = 0
         label.lineBreakMode = NSLineBreakMode.byWordWrapping
@@ -63,13 +64,13 @@ extension UILabel {
         return label.frame.width
     }
     
-    public static func lines(text:String, font:UIFont, width:CGFloat,lineSpace:CGFloat = 1) ->Int  {
-        let requiredHeight = UILabel.heightForView(text: text, font: font, width: width, numberOfLines: 0, lineSpace: lineSpace)
+    public static func SQ_lines(text:String, font:UIFont, width:CGFloat,lineSpace:CGFloat = 1) ->Int  {
+        let requiredHeight = UILabel.SQ_heightForView(text: text, font: font, width: width, numberOfLines: 0, lineSpace: lineSpace)
         
         return Int(requiredHeight / font.lineHeight)
     }
     
-    public func getLinesArrayOfStringWidth(_ width:CGFloat)->[String]? {
+    public func SQ_getLinesArrayOfStringWidth(_ width:CGFloat)->[String]? {
         guard let str = text,str.isEmpty == false, let font = font else {
             return nil
         }
@@ -100,7 +101,7 @@ extension UILabel {
         
         return linesArr
     }
-    public func setAttText(text:String,font:UIFont,fontColor:UIColor) {
+    public func SQ_setAttText(text:String,font:UIFont,fontColor:UIColor) {
         let tempString = text
         let tempMutableString = NSMutableAttributedString(string: tempString, attributes: [NSAttributedString.Key.font:font,NSAttributedString.Key.foregroundColor:fontColor])
         let paraph = NSMutableParagraphStyle()
@@ -115,7 +116,7 @@ extension UILabel {
         
     }
     
-    public func setAttText(text:String) {
+    public func SQ_setAttText(text:String) {
         let tempString = text
         let selffont = font != nil ? font! : HLFont(14)
         let selftextColor  = textColor != nil ? textColor! : MTTextColorBlack
@@ -147,7 +148,7 @@ extension UILabel {
         self.font = UIFont.systemFont(ofSize: fontSize)
     }
     
-    public final func extSetTextColor(_ textColor : UIColor ,
+    public final func SQ_extSetTextColor(_ textColor : UIColor ,
                                       fontSize : CGFloat ,
                                       textAlignment : NSTextAlignment ,
                                       isBold : Bool = false,
@@ -168,7 +169,7 @@ extension UILabel {
     ///   - text: 内容
     ///   - textColor: 字体颜色
     ///   - fontSize: 字体大小
-    public final func extSetText(_ text : String ,
+    public final func SQ_extSetText(_ text : String ,
                                  textColor : UIColor,
                                  fontSize : CGFloat){
         self.extSetTextColor(textColor, fontSize: fontSize)
@@ -182,11 +183,11 @@ extension UILabel {
     ///   - textColor: 颜色
     ///   - fontSize: 字体
     ///   - textAlignment: 对齐方式
-    public final func extSetText(_ text : String ,
+    public final func SQ_extSetText(_ text : String ,
                                  textColor : UIColor ,
                                  fontSize : CGFloat,
                                  textAlignment : NSTextAlignment){
-        self.extSetText(text, textColor: textColor, fontSize: fontSize)
+        self.SQ_extSetText(text, textColor: textColor, fontSize: fontSize)
         self.textAlignment = textAlignment
     }
     
@@ -231,7 +232,7 @@ extension UILabel {
     /// - Parameters:
     ///   - textColor: 颜色
     ///   - font: 大小
-    public final func extSetTextColor(_ textColor : UIColor, font : UIFont){
+    public final func SQ_extSetTextColor(_ textColor : UIColor, font : UIFont){
         self.textColor = textColor
         self.font = font
     }
@@ -243,9 +244,9 @@ extension UILabel {
      - parameter textColor: 字体颜色
      - parameter font:  字体Font
      */
-    public final func extSetText(_ text : String , textColor : UIColor , font : UIFont){
+    public final func SQ_extSetText(_ text : String , textColor : UIColor , font : UIFont){
         
-        self.extSetTextColor(textColor, font: font)
+        self.SQ_extSetTextColor(textColor, font: font)
         self.text = text;
         
     }
@@ -258,11 +259,14 @@ extension UILabel {
      - parameter font:  字体Font
      - parameter textAlignment:  对齐方式
      */
-    public final func extSetText(_ text : String ,
+    public final func SQ_extSetText(_ text : String ,
                                  textColor : UIColor ,
                                  font : UIFont ,
                                  textAlignment : NSTextAlignment){
-        self.extSetText(text, textColor: textColor, font: font)
+        self.SQ_extSetText(text, textColor: textColor, font: font)
         self.textAlignment = textAlignment
     }
 }
+
+
+

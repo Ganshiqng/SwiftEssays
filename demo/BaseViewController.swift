@@ -8,6 +8,8 @@
 import UIKit
 import SDWebImage
 import Kingfisher
+import JXSegmentedView
+
 class BaseViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -21,7 +23,10 @@ class BaseViewController: UIViewController {
         
     }
     
-
-    
+   
+    func SQ_pushvc(_ vc:UIViewController,_ animated : Bool = false) {
+        vc.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 
 }

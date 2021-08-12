@@ -7,8 +7,8 @@
 import UIKit
 import Foundation
 
-public let kScreenWidth:CGFloat = UIScreen.main.bounds.width
-public let kScreenHeight:CGFloat = UIScreen.main.bounds.height
+public let SQ_kScreenWidth:CGFloat = UIScreen.main.bounds.width
+public let SQ_kScreenHeight:CGFloat = UIScreen.main.bounds.height
 
 
 let Font_Reg_10 = HLFont(ofSize: 10, weight: .regular)

@@ -15,13 +15,15 @@ class ViewController: UITabBarController {
         // Do any additional setup after loading the view.
         self.tabBar.isTranslucent = false
         addNormalTabbar()
+       
     }
     
     func addNormalTabbar() {
           
           setupOneChildViewController(title: "首页", image: "tabBar_essence_icon", seletedImage: "tabBar_essence_click_icon", controller: HomeViewController.init())
-          setupOneChildViewController(title: "发现", image: "tabBar_friendTrends_icon", seletedImage: "tabBar_friendTrends_click_icon", controller: AddViewController.init())
+          setupOneChildViewController(title: "地图", image: "tabBar_friendTrends_icon", seletedImage: "tabBar_friendTrends_click_icon", controller: AddViewController.init())
           setupOneChildViewController(title: "我的", image: "tabBar_me_icon", seletedImage: "tabBar_me_click_icon", controller: MeViewController.init())
+    
   
       }
       fileprivate func  setupOneChildViewController(title: String,image: String,seletedImage: String,controller: UIViewController){

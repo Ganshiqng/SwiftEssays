@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import AMapFoundationKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -19,6 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.backgroundColor = UIColor.white
         window?.rootViewController = vc
         window?.makeKeyAndVisible()
+        
+        AMapServices.shared().apiKey = MapAppKey
         
         return true
     }

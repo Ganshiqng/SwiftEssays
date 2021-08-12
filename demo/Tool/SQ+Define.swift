@@ -27,7 +27,7 @@ func HLFont(ofSize: CGFloat, weight :UIFont.Weight = .regular) -> UIFont {
         familyName = "PingFangTC-Regular"
     }
     
-    let size = ofSize * (kScreenWidth / 375.0)
+    let size = ofSize * (SQ_kScreenWidth / 375.0)
     
     if let font = UIFont.init(name: familyName, size: size) {
         return font
@@ -63,4 +63,15 @@ let MTTintColorDarkRed = UIColor(red: 0.84, green: 0.29, blue: 0.23, alpha: 1)
 let NavigationBarColor = UIColor(displayP3Red: 27/255.0,green:108/255.0,blue:230/255.0,alpha:1.0)
 
 
+let MapAppKey = "98a6adfb88aaf3eed073cc4435dfecd1"
 
+
+func dispatch_sync_safely_main_queue(_ block: ()->()) {
+    if Thread.isMainThread {
+        block()
+    } else {
+        DispatchQueue.main.sync {
+            block()
+        }
+    }
+}

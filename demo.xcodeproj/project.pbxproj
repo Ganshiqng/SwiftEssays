@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26455F8026BCE12600D15B73 /* MapSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26455F7F26BCE12600D15B73 /* MapSearchViewController.swift */; };
+		26455F8226BCE30100D15B73 /* MapSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26455F8126BCE30100D15B73 /* MapSearchTableViewCell.swift */; };
+		26455F8426BD201800D15B73 /* MapNevtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26455F8326BD201800D15B73 /* MapNevtViewController.swift */; };
+		26455F8626BD3CF000D15B73 /* MapAnnotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26455F8526BD3CEF00D15B73 /* MapAnnotationViewController.swift */; };
+		26455F8826C104AB00D15B73 /* SQHUD+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26455F8726C104AB00D15B73 /* SQHUD+Extension.swift */; };
+		26455F8B26C22C9A00D15B73 /* CollisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26455F8A26C22C9A00D15B73 /* CollisionViewController.swift */; };
+		26455F8D26C3638000D15B73 /* CollisionTowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26455F8C26C3638000D15B73 /* CollisionTowViewController.swift */; };
 		268EF14E2696DE6D00D3B222 /* SQTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268EF14D2696DE6D00D3B222 /* SQTool.swift */; };
 		268EF1522696E71E00D3B222 /* oneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268EF1512696E71E00D3B222 /* oneViewController.swift */; };
 		268EF169269D28DE00D3B222 /* towViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268EF168269D28DE00D3B222 /* towViewController.swift */; };
@@ -15,6 +22,12 @@
 		26B466A426A9036300FA46B9 /* SQColumnCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B466A326A9036300FA46B9 /* SQColumnCell.swift */; };
 		26B466A626A906CC00FA46B9 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B466A526A906CC00FA46B9 /* UIView+Extension.swift */; };
 		26B466A826A9217F00FA46B9 /* UIAlertController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B466A726A9217F00FA46B9 /* UIAlertController+Extension.swift */; };
+		26B466AC26A969BE00FA46B9 /* ScrollViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B466AB26A969BE00FA46B9 /* ScrollViewViewController.swift */; };
+		26B466AE26AAC9E100FA46B9 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B466AD26AAC9E100FA46B9 /* String+Extension.swift */; };
+		26B466B126AFDC9E00FA46B9 /* CyclescrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B466B026AFDC9E00FA46B9 /* CyclescrollViewController.swift */; };
+		26B466B426B79AE900FA46B9 /* MapListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B466B326B79AE900FA46B9 /* MapListViewController.swift */; };
+		26B466B626B7D19300FA46B9 /* MapListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B466B526B7D19300FA46B9 /* MapListTableViewCell.swift */; };
+		26B466B926B9201000FA46B9 /* MapButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B466B826B9200F00FA46B9 /* MapButtonView.swift */; };
 		26C0F35226806CC3005094A9 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C0F35126806CC3005094A9 /* WidgetKit.framework */; };
 		26C0F35426806CC3005094A9 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C0F35326806CC3005094A9 /* SwiftUI.framework */; };
 		26C0F35726806CC3005094A9 /* daoyu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C0F35626806CC3005094A9 /* daoyu.swift */; };
@@ -83,6 +96,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		26455F7F26BCE12600D15B73 /* MapSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSearchViewController.swift; sourceTree = "<group>"; };
+		26455F8126BCE30100D15B73 /* MapSearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSearchTableViewCell.swift; sourceTree = "<group>"; };
+		26455F8326BD201800D15B73 /* MapNevtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapNevtViewController.swift; sourceTree = "<group>"; };
+		26455F8526BD3CEF00D15B73 /* MapAnnotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationViewController.swift; sourceTree = "<group>"; };
+		26455F8726C104AB00D15B73 /* SQHUD+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SQHUD+Extension.swift"; sourceTree = "<group>"; };
+		26455F8A26C22C9A00D15B73 /* CollisionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionViewController.swift; sourceTree = "<group>"; };
+		26455F8C26C3638000D15B73 /* CollisionTowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionTowViewController.swift; sourceTree = "<group>"; };
 		268EF14D2696DE6D00D3B222 /* SQTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQTool.swift; sourceTree = "<group>"; };
 		268EF1512696E71E00D3B222 /* oneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneViewController.swift; sourceTree = "<group>"; };
 		268EF168269D28DE00D3B222 /* towViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = towViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +111,12 @@
 		26B466A326A9036300FA46B9 /* SQColumnCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQColumnCell.swift; sourceTree = "<group>"; };
 		26B466A526A906CC00FA46B9 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		26B466A726A9217F00FA46B9 /* UIAlertController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extension.swift"; sourceTree = "<group>"; };
+		26B466AB26A969BE00FA46B9 /* ScrollViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewViewController.swift; sourceTree = "<group>"; };
+		26B466AD26AAC9E100FA46B9 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		26B466B026AFDC9E00FA46B9 /* CyclescrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclescrollViewController.swift; sourceTree = "<group>"; };
+		26B466B326B79AE900FA46B9 /* MapListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapListViewController.swift; sourceTree = "<group>"; };
+		26B466B526B7D19300FA46B9 /* MapListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapListTableViewCell.swift; sourceTree = "<group>"; };
+		26B466B826B9200F00FA46B9 /* MapButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapButtonView.swift; sourceTree = "<group>"; };
 		26C0F35026806CC3005094A9 /* daoyuExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = daoyuExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		26C0F35126806CC3005094A9 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		26C0F35326806CC3005094A9 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -166,6 +192,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26455F8926C22C6900D15B73 /* 碰撞 */ = {
+			isa = PBXGroup;
+			children = (
+				26455F8A26C22C9A00D15B73 /* CollisionViewController.swift */,
+				26455F8C26C3638000D15B73 /* CollisionTowViewController.swift */,
+			);
+			path = "碰撞";
+			sourceTree = "<group>";
+		};
 		268EF1492695A49300D3B222 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +214,7 @@
 		268EF16A269D3F2000D3B222 /* ImagePicker */ = {
 			isa = PBXGroup;
 			children = (
+				268EF168269D28DE00D3B222 /* towViewController.swift */,
 				268EF1512696E71E00D3B222 /* oneViewController.swift */,
 				268EF16B269D3F4600D3B222 /* ImageTopView.swift */,
 			);
@@ -192,6 +228,32 @@
 				26B466A326A9036300FA46B9 /* SQColumnCell.swift */,
 			);
 			path = "列表";
+			sourceTree = "<group>";
+		};
+		26B466AA26A9699500FA46B9 /* scrollview */ = {
+			isa = PBXGroup;
+			children = (
+				26B466AB26A969BE00FA46B9 /* ScrollViewViewController.swift */,
+			);
+			path = scrollview;
+			sourceTree = "<group>";
+		};
+		26B466AF26AFDC6700FA46B9 /* 轮播图 */ = {
+			isa = PBXGroup;
+			children = (
+				26B466B026AFDC9E00FA46B9 /* CyclescrollViewController.swift */,
+			);
+			path = "轮播图";
+			sourceTree = "<group>";
+		};
+		26B466B726B91FE200FA46B9 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				26B466B526B7D19300FA46B9 /* MapListTableViewCell.swift */,
+				26B466B826B9200F00FA46B9 /* MapButtonView.swift */,
+				26455F8126BCE30100D15B73 /* MapSearchTableViewCell.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 		26C0F35526806CC3005094A9 /* daoyu */ = {
@@ -270,8 +332,10 @@
 			isa = PBXGroup;
 			children = (
 				26DACAC3267C622000688540 /* HomeViewController.swift */,
+				26455F8926C22C6900D15B73 /* 碰撞 */,
+				26B466AF26AFDC6700FA46B9 /* 轮播图 */,
+				26B466AA26A9699500FA46B9 /* scrollview */,
 				268EF16A269D3F2000D3B222 /* ImagePicker */,
-				268EF168269D28DE00D3B222 /* towViewController.swift */,
 				26B466A226A9031700FA46B9 /* 列表 */,
 			);
 			path = Home;
@@ -280,7 +344,12 @@
 		26DACACA267C6AA600688540 /* Add */ = {
 			isa = PBXGroup;
 			children = (
+				26B466B726B91FE200FA46B9 /* view */,
 				26DACAC5267C622E00688540 /* AddViewController.swift */,
+				26B466B326B79AE900FA46B9 /* MapListViewController.swift */,
+				26455F7F26BCE12600D15B73 /* MapSearchViewController.swift */,
+				26455F8326BD201800D15B73 /* MapNevtViewController.swift */,
+				26455F8526BD3CEF00D15B73 /* MapAnnotationViewController.swift */,
 			);
 			path = Add;
 			sourceTree = "<group>";
@@ -303,6 +372,8 @@
 				26DB1AE426A67CF7004D092B /* UIButton+Extension.swift */,
 				26B466A526A906CC00FA46B9 /* UIView+Extension.swift */,
 				26B466A726A9217F00FA46B9 /* UIAlertController+Extension.swift */,
+				26B466AD26AAC9E100FA46B9 /* String+Extension.swift */,
+				26455F8726C104AB00D15B73 /* SQHUD+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -340,6 +411,7 @@
 				26C0F34C26806CC3005094A9 /* Sources */,
 				26C0F34D26806CC3005094A9 /* Frameworks */,
 				26C0F34E26806CC3005094A9 /* Resources */,
+				57829C89D4E444B54DB468ED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -360,6 +432,7 @@
 				26DACA8E267C5B1F00688540 /* Resources */,
 				26C0F36126806CCB005094A9 /* Embed App Extensions */,
 				5D64BC5D649DB8BF7DAC138D /* [CP] Embed Pods Frameworks */,
+				91D1105949AF1F3441E459B8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -490,6 +563,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		57829C89D4E444B54DB468ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-daoyuExtension/Pods-daoyuExtension-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-daoyuExtension/Pods-daoyuExtension-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-daoyuExtension/Pods-daoyuExtension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5D64BC5D649DB8BF7DAC138D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -505,6 +595,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-demo/Pods-demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91D1105949AF1F3441E459B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demo/Pods-demo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demo/Pods-demo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-demo/Pods-demo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		97507931B39CEA741EB48482 /* [CP] Check Pods Manifest.lock */ = {
@@ -567,9 +674,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26B466B626B7D19300FA46B9 /* MapListTableViewCell.swift in Sources */,
+				26B466B126AFDC9E00FA46B9 /* CyclescrollViewController.swift in Sources */,
+				26455F8226BCE30100D15B73 /* MapSearchTableViewCell.swift in Sources */,
 				26DB1ADA26A1753D004D092B /* SQ+Define.swift in Sources */,
+				26B466B926B9201000FA46B9 /* MapButtonView.swift in Sources */,
+				26B466AC26A969BE00FA46B9 /* ScrollViewViewController.swift in Sources */,
+				26455F8826C104AB00D15B73 /* SQHUD+Extension.swift in Sources */,
 				268EF16C269D3F4600D3B222 /* ImageTopView.swift in Sources */,
 				26B466A826A9217F00FA46B9 /* UIAlertController+Extension.swift in Sources */,
+				26B466B426B79AE900FA46B9 /* MapListViewController.swift in Sources */,
 				26DB1AE126A52D4B004D092B /* UILabel+Extension.swift in Sources */,
 				26DB1AE526A67CF8004D092B /* UIButton+Extension.swift in Sources */,
 				268EF169269D28DE00D3B222 /* towViewController.swift in Sources */,
@@ -582,13 +696,19 @@
 				268EF1522696E71E00D3B222 /* oneViewController.swift in Sources */,
 				26DB1ADF26A51769004D092B /* UIColor+Extension.swift in Sources */,
 				26DB1ADC26A5124F004D092B /* SQColor.swift in Sources */,
+				26B466AE26AAC9E100FA46B9 /* String+Extension.swift in Sources */,
 				26DACA98267C5B2000688540 /* ViewController.swift in Sources */,
 				26B466A626A906CC00FA46B9 /* UIView+Extension.swift in Sources */,
 				26DACA94267C5B2000688540 /* AppDelegate.swift in Sources */,
 				26DB1AD826A12AC9004D092B /* ThereeViewController.swift in Sources */,
+				26455F8026BCE12600D15B73 /* MapSearchViewController.swift in Sources */,
 				26DACAC4267C622100688540 /* HomeViewController.swift in Sources */,
+				26455F8626BD3CF000D15B73 /* MapAnnotationViewController.swift in Sources */,
 				268EF14E2696DE6D00D3B222 /* SQTool.swift in Sources */,
+				26455F8426BD201800D15B73 /* MapNevtViewController.swift in Sources */,
 				26DB1AE326A57653004D092B /* UITableView+Extension.swift in Sources */,
+				26455F8B26C22C9A00D15B73 /* CollisionViewController.swift in Sources */,
+				26455F8D26C3638000D15B73 /* CollisionTowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -652,6 +772,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9CDC1ACB84A3EC64E2260CF5 /* Pods-daoyuExtension.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_STYLE = Automatic;
@@ -675,6 +796,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A946D9D4AC755300B1B7891E /* Pods-daoyuExtension.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_STYLE = Automatic;
@@ -828,6 +950,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.candy.www.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -852,6 +975,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.candy.www.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

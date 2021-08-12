@@ -3,17 +3,26 @@ source 'https://github.com/CocoaPods/Specs.git'
 #source 'https://github.com/aliyun/aliyun-specs.git'
 #source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 
- platform :ios, '9.0'
+ platform :ios, '10.0'
  use_frameworks!
+
 def common_pods
   pod 'SnapKit'
   pod 'Alamofire'
-  pod 'Kingfisher'
-  
+  pod 'Kingfisher', '~> 5.5.0'
+  pod 'Motion'
+  pod 'SDCycleScrollView'
+  pod 'AMapNavi'
+  pod 'AMapSearch'
+  pod 'AMapLocation'
+  pod 'SnapKitExtend'
+
   end
 
 target 'demo' do
  common_pods
+ pod 'SVProgressHUD'
+ pod 'MBProgressHUD'
  pod 'YYText'
  pod 'Lantern'#图片预览
  pod 'SDWebImageLottiePlugin'
@@ -22,7 +31,7 @@ target 'demo' do
 # pod 'TXIMSDK_TUIKit_iOS','~> 5.4.666'
  # 腾讯推送
 # pod 'TPNS-iOS', '~> 1.3.1.1'
-# pod "QMUIKit"
+ pod "QMUIKit"
  pod 'IMYAOPTableView', '~> 2.1.1'
 # pod "XCGLogger", '~> 7.0.1', :inhibit_warnings => true  # 日志
 # pod "Motion", '~> 3.1.3', :inhibit_warnings => true # 动画

@@ -21,7 +21,7 @@ extension String {
 ///   - tableView: tableView description
 ///   - cell: 要注册的类名
 /// - Returns: description
-func regClass(_ tableView :  UITableView , cell : AnyClass) -> Void {
+func SQ_regClass(_ tableView :  UITableView , cell : AnyClass) -> Void {
     tableView.register(cell, forCellReuseIdentifier: "\(cell)")
 }
 
@@ -33,12 +33,12 @@ func regClass(_ tableView :  UITableView , cell : AnyClass) -> Void {
 ///   - cell: 要返回的cell类型
 ///   - indexPath: 位置
 /// - Returns: 传入cell类型的实例对象
-func getCell<T : UITableViewCell>(_ tableView:UITableView, cell:T.Type,indexPath:IndexPath) -> T {
+func SQ_getCell<T : UITableViewCell>(_ tableView:UITableView, cell:T.Type,indexPath:IndexPath) -> T {
     return tableView.dequeueReusableCell(withIdentifier: "\(cell)", for: indexPath) as! T
 }
 
 extension UITableView {
-    func HL_scrollToBottom() {
+    func SQ_scrollToBottom() {
         let section = self.numberOfSections - 1
         let row = self.numberOfRows(inSection: section) - 1
         if section < 0 || row < 0 {
@@ -47,7 +47,7 @@ extension UITableView {
         let path = IndexPath(row: row, section: section)
         self.scrollToRow(at: path, at: .top, animated: false)
     }
-    func extRegistCell(_ cells:[AnyClass], _ identifiers : [String]){
+    func SQ_extRegistCell(_ cells:[AnyClass], _ identifiers : [String]){
         for i in 0 ..< cells.count {
             self.register(cells[i], forCellReuseIdentifier: identifiers[i])
         }
